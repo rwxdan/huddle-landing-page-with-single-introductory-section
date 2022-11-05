@@ -154,6 +154,20 @@ button[data-smp="ig"] {
 	border-color: var(--clr-700);
 }
 
+.attribution {
+	font-family: var(--ff-body);
+	font-size: 0.75rem;
+	font-weight: var(--fw-600);
+	color: var(--clr-400);
+	opacity: 90%;
+	text-align: center;
+	margin-top: 2rem;
+}
+
+.attribution a {
+	color: hsl(37, 100%, 74%);
+}
+
 @media (max-width: 480px) {
 	body {
 		background-image: url(./images/bg-mobile.svg);
