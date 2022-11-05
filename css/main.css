@@ -134,7 +134,8 @@ ul {
 	border: 0.125rem solid;
 	border-color: var(--clr-400);
 	cursor: pointer;
-	padding-block: 0.5rem;
+	padding: 0.625rem;
+	width: 2.75rem;
 	border-radius: 50%;
 }
 
@@ -143,7 +144,7 @@ ul {
 	transition: all 0.2s ease;
 }
 
-button[data-smp="fb"] {
+/* button[data-smp="fb"] {
 	padding-inline: 0.8125rem;
 }
 
@@ -153,7 +154,7 @@ button[data-smp="tw"] {
 
 button[data-smp="ig"] {
 	padding-inline: 0.6875rem;
-}
+} */
 
 .smp:hover {
 	color: var(--clr-700);
