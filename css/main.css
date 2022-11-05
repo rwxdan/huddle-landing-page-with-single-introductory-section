@@ -78,6 +78,7 @@ main {
 .hero img {
 	cursor: pointer;
 	max-width: 40%;
+	max-height: 3rem;
 	display: inline-block;
 }
 
@@ -121,19 +122,19 @@ ul {
 	list-style: none;
 	display: flex;
 	justify-content: flex-end;
-	gap: 1.4rem;
+	gap: 1.125rem;
 	margin-block-end: 1rem;
 	padding-inline-end: 3.5rem;
 }
 
 .smp {
-	font-size: 1.125rem;
+	font-size: 1rem;
 	color: var(--clr-400);
 	background-color: var(--clr-800);
-	border: 2px solid;
+	border: 0.125rem solid;
 	border-color: var(--clr-400);
 	cursor: pointer;
-	padding-block: 0.75rem;
+	padding-block: 0.5rem;
 	border-radius: 50%;
 }
 
@@ -143,15 +144,15 @@ ul {
 }
 
 button[data-smp="fb"] {
-	padding-inline: 1.125rem;
+	padding-inline: 0.8125rem;
 }
 
 button[data-smp="tw"] {
-	padding-inline: 0.875rem;
+	padding-inline: 0.625rem;
 }
 
 button[data-smp="ig"] {
-	padding-inline: 0.9375rem;
+	padding-inline: 0.6875rem;
 }
 
 .smp:hover {
