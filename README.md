@@ -1,9 +1,11 @@
 # Frontend Mentor - Huddle landing page with single introductory section solution
 
-- ### Desktop product:
+- ### [Live preview 🎨](https://rwxdan.github.io/huddle-landing-page-with-single-introductory-section/)
 
-![](./design/desktop_product.png)
+- ### Desktop product 💻
 
-- ### Mobile product:
+![](/screenshot/desktop_product.png)
 
-![](./design/mobile_product.png)
+- ### Mobile product 📱
+
+![](/screenshot/mobile_product.png)
