@@ -118,12 +118,12 @@ main {
 }
 
 ul {
-	margin-block: 3vw;
 	list-style: none;
 	display: flex;
 	justify-content: flex-end;
 	gap: 1.4rem;
-	padding-inline-end: 2.75rem;
+	margin-block-end: 1rem;
+	padding-inline-end: 3.5rem;
 }
 
 .smp {
