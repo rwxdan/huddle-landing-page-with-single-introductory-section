@@ -31,6 +31,9 @@ body {
 	background-image: url(../images/bg-desktop.svg);
 	background-repeat: no-repeat;
 	background-size: 100%;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
 }
 
 *,
@@ -76,14 +79,12 @@ main {
 	cursor: pointer;
 	max-width: 40%;
 	display: inline-block;
-	padding-inline-start: 2.5rem;
 }
 
 .container {
 	display: flex;
-	justify-content: space-around;
-	gap: 2rem;
-	min-height: 90%;
+	justify-content: center;
+	gap: 4rem;
 }
 
 .content {
@@ -117,7 +118,7 @@ main {
 }
 
 ul {
-	margin-block: 4vw;
+	margin-block: 3vw;
 	list-style: none;
 	display: flex;
 	justify-content: flex-end;
@@ -165,7 +166,8 @@ button[data-smp="ig"] {
 	color: var(--clr-400);
 	opacity: 90%;
 	text-align: center;
-	margin-block: 1rem;
+	margin-block: auto 1.5rem;
+	flex-basis: 0;
 }
 
 .attribution a {
@@ -175,9 +177,6 @@ button[data-smp="ig"] {
 @media (max-width: 480px) {
 	body {
 		background-image: url(../images/bg-mobile.svg);
-	}
-	.hero img {
-		padding-inline-start: 0;
 	}
 
 	.container {
@@ -198,5 +197,9 @@ button[data-smp="ig"] {
 	ul {
 		justify-content: center;
 		padding-inline-end: 0;
+	}
+
+	.attribution {
+		margin: 1rem;
 	}
 }
