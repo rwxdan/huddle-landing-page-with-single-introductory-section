@@ -68,12 +68,12 @@ main {
 }
 
 .hero {
-	cursor: pointer;
 	margin-block: clamp(2rem, 4vw, 6rem);
 	max-width: 100%;
 }
 
 .hero img {
+	cursor: pointer;
 	max-width: 40%;
 	display: inline-block;
 }
