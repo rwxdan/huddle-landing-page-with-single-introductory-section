@@ -142,11 +142,11 @@ button[data-smp="fb"] {
 }
 
 button[data-smp="tw"] {
-	padding-inline: 0.9375rem;
+	padding-inline: 0.875rem;
 }
 
 button[data-smp="ig"] {
-	padding-inline: 1rem;
+	padding-inline: 0.9375rem;
 }
 
 .smp:hover {
